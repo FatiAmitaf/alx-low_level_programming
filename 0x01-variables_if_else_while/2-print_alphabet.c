@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints a random number and states whether it is pos neg or zero
+ * main - Prints the alphabet in lowercase
  *
  * Return: 0 (success)
 */
