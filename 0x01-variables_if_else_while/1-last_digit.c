@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Prints the last digit 
+ * main - Prints the last digit
  *
  * Return: 0 (success)
  */
