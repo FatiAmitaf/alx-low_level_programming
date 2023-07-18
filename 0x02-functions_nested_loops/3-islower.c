@@ -2,6 +2,7 @@
 /**
  *_islower -  function prints the alphabet in lowercase
  *lowercase letter
+ *@c: character to test
  * Return: 1 if it is lowercase 0 otherwise
  */
 int _islower(int c)
