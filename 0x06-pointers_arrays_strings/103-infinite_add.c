@@ -8,7 +8,7 @@
  * @size_r: buffer size
  * Return: String with all letters in ROT13 base.
  */
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size)
 {
 	int a_len = 0, b_len = 0, carry = 0, a, b, sum, biggest;
 	
@@ -20,7 +20,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		biggest = a_len;
 	else
 		biggest = b_len;
-	if ((biggest + 1) >= size_r)
+	if ((biggest + 1) >= size)
 		return (0);
 	r[biggest + 1] = '\0';
 	
