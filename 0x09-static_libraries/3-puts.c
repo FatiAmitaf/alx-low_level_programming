@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - describe text
+ * _puts - Escribir un texto
  *
  * @str: This is my entry
  *
